@@ -5,6 +5,7 @@
     --grey: #48556A;
     --lightgrey: #6E8098;
     --superlightgrey: #9DAEC2;
+    --white: #FFFFFF;
 }
 
 * {
@@ -15,4 +16,29 @@
 
 body {
     background: var(--lightblue);
+}
+
+article {
+    background: var(--white);
+}
+
+h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.15 rem;
+    color: var(--grey);
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    color: var(--lightgrey);
+}
+
+.name {
+    font-family: "Manrope", sans-serif;
+    color: var(--grey);
+}
+
+.date {
+    font-family: "Manrope", sans-serif;
+    color: var(--superlightgrey);
 }
