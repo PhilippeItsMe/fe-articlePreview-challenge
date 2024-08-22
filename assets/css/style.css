@@ -18,18 +18,50 @@ body {
     background: var(--lightblue);
 }
 
-article {
+main {
     background: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+header {
+    background-color: var(--grey);
+    background-image: url("/assets/images/drawers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: centered;
+    width: 100%;
+    height: 280px;
+}
+
+#innercontent,
+footer {
+    padding: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
     font-family: "Manrope", sans-serif;
-    font-size: 1.15 rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.5;
     color: var(--grey);
+    margin: 1.5rem 0;
 }
 
 p {
     font-family: "Manrope", sans-serif;
+    line-height: 1.5;
     color: var(--lightgrey);
 }
 
@@ -38,7 +70,26 @@ p {
     color: var(--grey);
 }
 
+
 .date {
     font-family: "Manrope", sans-serif;
     color: var(--superlightgrey);
+}
+
+#avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 3rem;
+}
+
+#share {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--lightblue);
+}
+
+#author {
+    margin-left: -5rem;
 }
