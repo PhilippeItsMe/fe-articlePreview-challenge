@@ -164,6 +164,7 @@ p {
     border-radius: 50%;
     background-color: var(--lightgrey);
     margin-left: 3rem;
+    cursor: pointer;
 }
 
 /* Responsivness mobile */
@@ -180,7 +181,6 @@ p {
     }
 
     #author {
-        margin-left: -6rem;
+        margin-left: -4rem;
     }
-
 }
